@@ -1,0 +1,20 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='style2.css')}}">
+{% endblock %}
+{% block title %}
+Price Tracker 
+{% endblock %}
+{% block content %}
+<form method="POST" action="{{url_for('form')}}">
+    <section class="sec1">
+        <div class="inner_sec">
+            <h1>Thank you!!!!</h1>
+            <h2>We will notify you once the price reaches your demand!</h2><br>
+            <a href="{{ url_for('form') }}">Go to Home</a><br>
+         </div>
+    </section>
+</form>
+{% endblock %}

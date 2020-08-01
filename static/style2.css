@@ -1,0 +1,19 @@
+*{
+    background-color: #222f3e; 
+    vertical-align: middle;
+    color: white; 
+    font-family: josefin;
+    }
+    
+    .sec1{
+      text-align: center; 
+      margin: 4px 4px 4px 4px; 
+      border-radius: 2px 2px 2px 2px;
+    }
+    
+    .inner_sec{
+      font-size: 200% ;
+      border:10px solid whitesmoke; 
+      margin: 50px 50px 50px 50px;
+      padding: 10px  10px 30px 10px;
+    }
